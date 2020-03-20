@@ -1,4 +1,6 @@
-![](docs/header.png)
+<p align="center">
+    <img src="docs/header.png">
+</p>
 
 > Clean Swift XCode templates, allowing easy creation of scenes and components when using Clean Swift (VIP) architecture for your apps.
 
