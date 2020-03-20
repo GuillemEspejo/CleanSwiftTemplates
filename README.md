@@ -36,13 +36,9 @@ Then, you will see the new items showing in XCode's 'new file' menu:
 
 Using this templates should be pretty straightforward. Whenever you start a new scene, just select the Scene item in the file creation menu and give your scene a name. All the objects created will share the same name.
 
-| Scene name        | Viewcontroller     |  Interactor           |  Presenter           | Model                 | Router                 | Worker                |
-| ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- |
-| UserProfile          | UserProfileViewController | UserProfileInteractor | UserProfilePresenter | UserProfileModel | UserProfileRouter | UserProfileWorker |
-
 If any of the elements isn't needed (worker, router, whatever) just delete them after creation and fix obvious compilation errors. If needed, you can recreate them at a later time using the corresponding component template.
 
-Every component of the scene comes with some empty methods named `doSomething`. Those methods should allow you to understand how all this components work together.
+Every component of the scene comes with some empty methods named `doSomething`, `presentSomething`, `displaySomething` and such. Those methods should allow you to understand how all this components work together.
 
 
 
